@@ -1,0 +1,21 @@
+
+
+
+
+
+
+.wrong-input
+{
+	border: 1px solid red;
+	animation:shake 0.5s;
+	animation-iteration-count:2;
+	
+}
+
+@keyframes shake
+{
+	10% 90%
+	{
+	transform : translate3d(-1px ,0,0)
+	}
+}

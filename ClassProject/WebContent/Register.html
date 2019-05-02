@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>REGISTER</title>
+
+	
+<script type = "text/javascript" src= "js/formvalidate.js" ></script> 
+<link rel="stylesheet" href="css/register.css">
+<link rel="stylesheet" href="css/validate.css">
+
+
+</head>
+
+<body background= "images/mbuntu-2.jpg">
+
+
+<div id="login-box">
+  <div class="left">
+  
+
+    <h1>Sign up</h1>
+   
+      <form action="Register.jsp" method="post" name="myform" onsubmit="return validate()">
+    <input type="text" name="uname" id="username" placeholder="Username" required />
+    <input type="text" name="email" id="email" placeholder="E-mail" required />
+    <input type="text" name="mobno" id="mobno" placeholder="Contact No." required/>
+     <input type="text" name="usertype" id="usertype" placeholder="Admin or User" required />
+  
+    <input type="password" name="psw" id="psw"  placeholder="Password" />
+    <input type="password" name="psw1" id="psw1" placeholder="Retype password"/>
+    	<input type="submit" name="submit" value="Sign me up" />
+    	
+  </div>
+  
+  <div class="right">
+   
+   <!--  <span class="loginwith">Sign in with<br />social network</span> -->
+   
+     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      
+       <img src="images/icon4.png" width="200" height="200" align="bottom";>
+     <br><br>
+    
+   
+      <hr>
+     
+    <p> <i>Do You Already Have an Account?</i><br><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    <a href= "signin.html" > Sign In Here</a></p>
+    
+    
+    
+  </div>
+  
+  
+  <br>
+  <div class="or">OR</div>
+  
+  
+</div>
+</form>
+
+</body>
+</html>
